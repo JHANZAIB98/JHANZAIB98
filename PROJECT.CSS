@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+BODY{
+    background-color: RGB(0,0,33);
+    color: white;
+    font-family: 'POPPINS',sans-serif;
+}
+NAV{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: RGB(18,18,62);
+    
+}
+NAV UL{
+    display: flex;
+    justify-content: center;
+}
+NAV UL LI{
+    list-style: none;
+    margin: 0 23px;
+
+}NAV UL LI a{
+    text-decoration: none;
+    color: white;
+}NAV UL LI>a:hover{
+    
+    
+    color:rgb(86, 86, 158) ;
+    font-size: 1.04rem;
+}
+.LEFT{
+    font-size: 1.5rem;
+}.FIRSTSECTION{
+    display: flex;
+    justify-content: space-around;
+    margin:23PX 0 ;
+    align-items: center;
+}.FIRSTSECTION>div{
+    width: 30%;
+    margin-top: 20PX;
+}
+.LEFTSECTION{
+    font-size: 3rem;
+    text-align: center;
+    
+    
+}.RIGHTSECTION img{
+width: 80%;
+margin: 50PX 0;
+}.PURPLE{
+    color: rgb(170, 107, 228);
+}#element{
+    color: rgb(170, 107, 228);
+}
