@@ -37,15 +37,18 @@ NAV UL LI{
 }.FIRSTSECTION{
     display: flex;
     justify-content: space-around;
-    margin:23PX 0 ;
+    margin:80PX 0 ;
     align-items: center;
-}.FIRSTSECTION>div{
+}.FIRSTSECTION > div{
     width: 30%;
-    margin-top: 20PX;
+    display: inline;
+    
+    
 }
 .LEFTSECTION{
     font-size: 3rem;
     text-align: center;
+    
     
     
 }.RIGHTSECTION img{
@@ -55,4 +58,57 @@ margin: 50PX 0;
     color: rgb(170, 107, 228);
 }#element{
     color: rgb(170, 107, 228);
+}.secondsec{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    height: 80vh;
+}.secondsec h1{
+    font-size: 1.9rem;
+}.secondsec .box{
+    background: white;
+    width: 77VW;
+    height: 2PX;
+    margin: 56PX 0;
+    display: flex;
+    
+}.secondsec .vertical{
+    height: 93PX;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+    
+}.image-top{
+    width: 23px;
+    position: relative;
+    top: -48px;
+    left: -9px;
 }
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+margin-bottom: -40px;
+
+}
+.vertical-desc{
+    position:  relative;
+    top: 85px;
+    text-align: center;
+    font-size: 0.8rem;
+    display: flex;
+}footer{
+    background-color: rgb(26, 26, 128);
+}.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}ul{
+    list-style: none;
+}
+/* .leftsection.btn{
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+} */
