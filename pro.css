@@ -14,6 +14,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2S linear;
+    flex-wrap: wrap;
 }HTML{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -108,7 +109,7 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url();
+    background: url(https://ilovethisshop.com.au/wp-content/uploads/slider12/bg-5.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +164,8 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     padding: 2rem;
     gap: 1.8rem;
-    width: 50%;
+    width: 33%;
+    justify-content: space-evenly;
     
 }.product-row .box .img img{
 width: 100%;
@@ -192,6 +194,12 @@ height: 100%;
     cursor: pointer;
 }.product-section .product-row .content .ordernow button:hover{
     font-size: 2rem;
+}
+.swiper-wrapper{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 5px;
+    
 }
 
 
